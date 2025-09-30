@@ -63,9 +63,9 @@ To Run locally :
 2) Create and activate a virtual environment for this task.   
    ```python3 -m venv venv```  
    ```source venv/bin/activate```  
-3) Install dependencies/requirements mentioned above.
+3) Install dependencies/requirements.  
    ```pip install --upgrade pip```  
    ```pip install transformers torch spacy google-genai pydantic regex numpy tqdm requests```  
    ```python -m spacy download en_core_web_sm```  
-4) Generate your own gemini API key from their website.
+4) Generate your own gemini API key from their website.  
    https://aistudio.google.com/app/u/3/api-keys
