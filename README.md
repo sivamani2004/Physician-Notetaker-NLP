@@ -58,15 +58,14 @@ This NLP pipeline integrates various hugging face models and gemini API :
 
 To Run locally :
 1) Create a directory with ipynb file and transcript.txt .   
-   ```mkdir PhysicianNotetaker && cd PhysicianNotetaker```
-
+   ```mkdir PhysicianNotetaker && cd PhysicianNotetaker```   
    add files to this directory
-3) Create and activate a virtual environment for this task.
-   ```python3 -m venv venv```
-   ```source venv/bin/activate```
-5) Install dependencies/requirements mentioned above.
-   ```pip install --upgrade pip```
-   ```pip install transformers torch spacy google-genai pydantic regex numpy tqdm requests```
-   ```python -m spacy download en_core_web_sm```
-7) Generate your own gemini API key from their website.
+2) Create and activate a virtual environment for this task.   
+   ```python3 -m venv venv```  
+   ```source venv/bin/activate```  
+3) Install dependencies/requirements mentioned above.
+   ```pip install --upgrade pip```  
+   ```pip install transformers torch spacy google-genai pydantic regex numpy tqdm requests```  
+   ```python -m spacy download en_core_web_sm```  
+4) Generate your own gemini API key from their website.
    https://aistudio.google.com/app/u/3/api-keys
