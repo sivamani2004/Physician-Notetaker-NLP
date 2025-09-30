@@ -1,0 +1,43 @@
+Question and Answers : 
+
+Q) How would you handle ambiguous or missing medical data in the transcript?
+
+A) As medical data is something that is very important, if any data is missing, the model should'nt assume or predict. The best course of action would be to leave the section blank or mark as unknown. For example , if the transcript doesnt mention anything about medication or treatment, the model should not predict the treatment.
+
+
+
+Q) What pre-trained NLP models would you use for medical summarization?
+
+A) Domain specific DistilBART works really well for medical summarization. I found a hugging-face model of DistilBART pre-trained on pubmed that performs medical summarization quite well. Other models like BioBART are also known to perform quite well.
+
+
+
+Q) How would you fine-tune BERT for medical sentiment detection?
+
+A) Start with domain specific bert BioBERT/ClinicalBERT or RuBERT trained on medical corpuses for patient sentiment detection. To fine-tune we can adaptfine‑tuning practices like : small learning rates (~2e‑5), warmup, and layer‑wise decay to stabilize training and avoid catastrophic forgetting. Also run BERT only on patient utterences instead of full transcript for better accuracy.
+
+
+
+Q) What datasets would you use for training a healthcare-specific sentiment model? 
+
+A) Datasets suitable for healthcare-specific sentiment model training are SMM4H dataset and MIMIC dataset can be used. There are also many doctor-patient transcript datasets available in kaggle.
+
+
+
+Q) How would you train an NLP model to map medical transcripts into SOAP format?
+
+A) There are different methods : 
+	- Supervised pipeline: rule-based sentence‑level classifier to assign each utterance/sentence to S/O/A/P, followed by structured aggregation of each section. 
+	- Instruction LLM with schema: use an llm with prompt engineering to produce SOAP, use structured‑output generation (e.g., response schema + JSON MIME) to enforce exact keys and types for SOAP sections.
+	- Regardless of approach, ground the mapping in clinical definitions: subjective = patient report, objective = measurable findings, assessment = diagnostic reasoning, plan = interventions/follow‑up.
+
+
+
+Q) What rule-based or deep-learning techniques would improve the accuracy of SOAP note generation?
+
+A) Negation and uncertainty detection: apply clinical negation handling before section assignment to avoid false positives in objective. Medical NLP tasks require a strong negation handling approach which I implemented in my code.
+
+
+
+
+
