@@ -40,7 +40,7 @@ This NLP pipeline integrates various hugging face models and gemini API :
    - output/patient_summary.json
    - output/patient_sentiment_intent.json
    - output/patient_soap_summary.json
-   (folder named output will be created with 3 json files in your directory)
+   - (folder named output will be created with 3 json files in your directory)
 
 
 ## Requirements
@@ -55,6 +55,7 @@ This NLP pipeline integrates various hugging face models and gemini API :
 ## Setup
 
 (Recommended to run in colab using T4 since we are using many models)
+
 To Run locally :
 1) Create a directory with ipynb file and transcript.txt .
 2) Create and activate a virtual environment for this task.
