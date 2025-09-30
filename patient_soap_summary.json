@@ -1,0 +1,18 @@
+{
+  "Subjective": {
+    "Chief_Complaint": "Patient reports occasional discomfort.",
+    "History_of_Present_Illness": "The patient was involved in a car accident on September 1st, around 12:30 PM, when her vehicle was rear-ended, pushing it into the car in front. She was wearing her seatbelt. Immediately after the accident, she hit her head on the steering wheel and experienced neck and back pain. She sought medical attention at Moss Bank Accident and Emergency, where she was diagnosed with a whiplash injury and discharged with advice, without X-rays. For the first four weeks post-accident, she experienced severe neck and back pain, difficulty sleeping, and required regular painkillers. She subsequently completed ten sessions of physiotherapy. Currently, she experiences occasional backaches, which are significantly less severe than before. She denies anxiety while driving, difficulty concentrating, or any emotional issues related to the accident. She took one week off work but reports no ongoing impact on her work, hobbies, or daily life."
+  },
+  "Objective": {
+    "Physical_Exam": "Physical examination revealed a full range of movement in the neck and back, with no tenderness or signs of lasting damage. Muscles and spine appear to be in good condition.",
+    "Observations": ""
+  },
+  "Assessment": {
+    "Diagnosis": "Whiplash injury, resolving.",
+    "Severity": "Mild, with positive recovery progress."
+  },
+  "Plan": {
+    "Treatment": "No new treatment is prescribed as the patient is recovering well and has completed physiotherapy.",
+    "Follow_Up": "The patient is expected to make a full recovery within six months of the accident, with no anticipated long-term impact on work or daily life. She is advised to return for a follow-up if symptoms change or worsen."
+  }
+}
