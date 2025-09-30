@@ -57,7 +57,7 @@ This NLP pipeline integrates various hugging face models and gemini API :
 (Recommended to run in colab using T4 since we are using many models)
 
 To Run locally :
-1) Create a directory with ipynb file and transcript.txt .
+1) Create a directory with ipynb file and transcript.txt .   
    ```mkdir PhysicianNotetaker && cd PhysicianNotetaker```
 
    add files to this directory
