@@ -9,7 +9,7 @@ This NLP pipeline integrates various hugging face models and gemini API :
 - Spacy 'en_core_web'.
 - DeBERTa trained on biomedical texts for medical NER.
 - DistilBART trained on pubmed for medical summary.
-- RuBERT trained on corpus of medical texts for patient sentiment analysis.
+- RoBERTa trained on corpus of medical texts for patient sentiment analysis.
 - Gemini API for getting SOAP NOTE of transcript.
 
 
@@ -17,7 +17,7 @@ This NLP pipeline integrates various hugging face models and gemini API :
 
 - Biomedical NER using Spacy and DeBERTa with entity merging, quantity–treatment linking, and advanced dialogue-aware negation-filtering.
 - Abstractive clinical summarization with DistilBART tuned for concise, factual outputs.
-- Patient-only sentiment and rule-based intent detection with RuBERT.
+- Patient-only sentiment and rule-based intent detection with domain specific RoBERTa.
 - Robust SOAP note generation via a schema-bound LLM call (gemini), with fallbacks as needed.
 - Deterministic saving of machine-readable JSON artifacts.
 
@@ -33,7 +33,7 @@ This NLP pipeline integrates various hugging face models and gemini API :
    - Biomedical NER (Helios9/BioMedNER), merge and clean entities
    - Dialogue-aware negation filtering across turns
    - Summarize transcript (DistilBART-based medical summarizer)
-   - Sentiment and intent on patient-only utterances (RuBERT)
+   - Sentiment and intent on patient-only utterances (RoBERTa)
    - SOAP JSON generation via Gemini structured output 
 
 3) Output artifacts (JSON):
