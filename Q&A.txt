@@ -14,7 +14,7 @@ A) Domain specific DistilBART works really well for medical summarization. I fou
 
 Q) How would you fine-tune BERT for medical sentiment detection?
 
-A) Start with domain specific bert BioBERT/ClinicalBERT or RuBERT trained on medical corpuses for patient sentiment detection. To fine-tune we can adaptfine‑tuning practices like : small learning rates (~2e‑5), warmup, and layer‑wise decay to stabilize training and avoid catastrophic forgetting. Also run BERT only on patient utterences instead of full transcript for better accuracy.
+A) Start with domain specific bert BioBERT/ClinicalBERT or RoBERTa trained on medical corpuses for patient sentiment detection. To fine-tune we can adaptfine‑tuning practices like : small learning rates (~2e‑5), warmup, and layer‑wise decay to stabilize training and avoid catastrophic forgetting. Also run BERT only on patient utterences instead of full transcript for better accuracy.
 
 
 
